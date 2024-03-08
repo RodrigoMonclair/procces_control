@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 
-
-*{
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
   margin: 0 auto;
   padding: 0px;
   background-color: #5e5e5e;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.header{
+.header {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   text-align: center;
   align-items: center;
   padding: 10px 50px;
@@ -24,7 +23,7 @@ body{
   border-radius: 5px;
 }
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -33,22 +32,21 @@ body{
   margin-top: 20px;
 }
 
-.tipo{
+.tipo {
   text-align: center;
   padding: 10px;
   color: #e7e7e7;
   height: 60px;
 }
-
-/* .canva{
-  margin-left: 0px;
-  margin-right: 660px;
-} */
-
-.offCanva{
-  background: color #48b4f3;
+.mb-3 {
+  gap: 5px;
+}
+.test {
+  background-color: black !important;
+  color: gray !important;
 }
 
-.tabs{
+.test:hover {
+  background-color: grey !important;
+  color: black !important;
 }
-
