@@ -15,7 +15,7 @@ function Canva() {
         Menu
       </Button>
 
-      <Offcanvas style={{backgroundColor: "#101010", color: "#fff"}} show={show} onHide={handleClose}>
+      <Offcanvas style={{backgroundColor: "#101010", color: "#fff", height: "50vh", marginLeft: "10px", borderRadius: "5px"}} show={show} onHide={handleClose}>
         <Offcanvas.Header style={{color: '#fff'}} closeButton>
           <Offcanvas.Title>NUPAC</Offcanvas.Title>
         </Offcanvas.Header>

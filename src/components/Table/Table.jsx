@@ -12,10 +12,9 @@ function Tables() {
     >
       <Tabs
         defaultActiveKey="profile"
-
         id="fill-tab-example"
         className="mb-3"
-        variant="pills"
+        variant="tabs"
         justify
       >
         <Tab tabClassName="test" eventKey="home" title="Ressarcimento ao TJDFT">

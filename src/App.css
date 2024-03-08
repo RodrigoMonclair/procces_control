@@ -44,9 +44,19 @@ body {
 .test {
   background-color: black !important;
   color: gray !important;
+  border: none;
 }
 
 .test:hover {
   background-color: grey !important;
   color: black !important;
+  border: none !important;
+}
+.test:active {
+  background-color: grey !important;
+  color: black !important;
+}
+
+.list{
+  text-decoration: none;
 }
