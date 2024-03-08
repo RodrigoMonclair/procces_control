@@ -7,6 +7,7 @@ import TabelaRtj from '../Tabelas/TabelaRtj.jsx';
 
 function Tables() {
   return (
+    <div style={{width: "80%", margin: "0px auto  0px auto", color: "#e7e7e7"}}>
     <Tabs
       defaultActiveKey="profile"
       id="fill-tab-example"
@@ -26,6 +27,7 @@ function Tables() {
         <TabelaPSSS />
       </Tab>
     </Tabs>
+    </div>
   );
 }
 

@@ -5,10 +5,10 @@ function TabelaRoo() {
     <Table striped bordered hover>
       <thead>
       <tr>
-          <th style={{backgroundColor: "#155F9B", color: "#ccc"}}>#</th>
-          <th style={{backgroundColor: "#155F9B", color: "#ccc"}}>First Name</th>
-          <th style={{backgroundColor: "#155F9B", color: "#ccc"}}>Last Name</th>
-          <th style={{backgroundColor: "#155F9B", color: "#ccc"}}>Username</th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}>#</th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}>First Name</th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}>Last Name</th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}>Username</th>
         </tr>
       </thead>
       <tbody>

@@ -11,7 +11,7 @@ function Canva() {
 
   return (
     <>
-      <Button variant="outline-light" onClick={handleShow}>
+      <Button variant="outline-light" onClick={handleShow} style={{border: "none"}}>
         Menu
       </Button>
 
