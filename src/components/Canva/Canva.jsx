@@ -11,11 +11,11 @@ function Canva() {
 
   return (
     <>
-      <Button variant="outline-dark" onClick={handleShow}>
-        Opções
+      <Button variant="outline-light" onClick={handleShow}>
+        Menu
       </Button>
 
-      <Offcanvas style={{backgroundColor: "#383535", color: "#fff"}} show={show} onHide={handleClose}>
+      <Offcanvas style={{backgroundColor: "#101010", color: "#fff"}} show={show} onHide={handleClose}>
         <Offcanvas.Header style={{color: '#fff'}} closeButton>
           <Offcanvas.Title>NUPAC</Offcanvas.Title>
         </Offcanvas.Header>

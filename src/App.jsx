@@ -14,15 +14,15 @@ function App() {
   return (
     <>
     <header className='header'>
+          <div className='title'>
+          <h1>NUPAC <img style={{width: "30px", height: "30px", borderRadius: "50px"}} src={image} alt="logo" /></h1>
+          </div>
         <div className='canva'>
             <Canva />
           </div>
-          <div className='title'>
-          <h1>SISTEMA NUPAC</h1>
-          </div>
-          <div className='logo'>
-            <img style={{width: "80px", height: "80px", borderRadius: "50px"}} src={image} alt="logo" />
-          </div>
+          {/* <div className='logo'>
+            <img style={{width: "55px", height: "55px", borderRadius: "50px"}} src={image} alt="logo" />
+          </div> */}
     </header>
 
     
