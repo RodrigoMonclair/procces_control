@@ -5,10 +5,14 @@ function TabelaPSSS() {
     <Table striped bordered hover>
       <thead>
       <tr>
-          <th style={{backgroundColor: "#323234", color: "#ccc"}}>#</th>
-          <th style={{backgroundColor: "#323234", color: "#ccc"}}>First Name</th>
-          <th style={{backgroundColor: "#323234", color: "#ccc"}}>Last Name</th>
-          <th style={{backgroundColor: "#323234", color: "#ccc"}}>Username</th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}><strong>Matrícula</strong></th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}><strong>Servidor Licenciado</strong></th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}><strong>E-mail do Servidor</strong></th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}><strong>Início da Licença</strong></th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}><strong>Mês do Último Recolhimento - Parte Patronal</strong></th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}><strong>Mês do Último Despacho Nupac</strong></th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}><strong>PA SEI</strong></th>
+          <th style={{backgroundColor: "#323234", color: "#ccc"}}><strong>Observações</strong></th>
         </tr>
       </thead>
       <tbody>
@@ -26,7 +30,8 @@ function TabelaPSSS() {
         </tr>
         <tr>
           <td>3</td>
-          <td colSpan={2}>Larry the Bird</td>
+          {/* <td colSpan={3}>Larry the Bird</td> */}
+          
           <td>@twitter</td>
         </tr>
       </tbody>

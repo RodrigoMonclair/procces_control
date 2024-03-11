@@ -52,11 +52,14 @@ body {
   color: black !important;
   border: none !important;
 }
-.test:active {
+
+/* .test:active {
   background-color: grey !important;
   color: black !important;
-}
+  border: none !important;
+} */
 
 .list{
   text-decoration: none;
 }
+
