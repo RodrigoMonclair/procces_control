@@ -27,7 +27,7 @@ function Tables() {
         >
           <TabelaPd />
         </Tab>
-        <Tab tabClassName="test" eventKey="profile" title="Ressarcimento a Outros Órgãos">
+        <Tab tabClassName="test" eventKey="profile" title="Ressarc. a Outros Órgãos">
           <TabelaRoo />
         </Tab>
         <Tab tabClassName="test" eventKey="longer-tab" title="PSSS">
